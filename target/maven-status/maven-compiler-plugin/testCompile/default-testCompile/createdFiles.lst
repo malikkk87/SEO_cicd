@@ -1,0 +1,7 @@
+com\hackseo\app\testcases\LoginTest.class
+com\hackseo\app\testcases\AjouterSiteTest.class
+com\hackseo\app\base\BasePage.class
+com\hackseo\app\base\BaseTest.class
+com\hackseo\app\factory\DriverFactory.class
+com\hackseo\app\pages\AjouterSitePage.class
+com\hackseo\app\pages\LoginPage.class
