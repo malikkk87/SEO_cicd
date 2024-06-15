@@ -3,7 +3,7 @@ name: Run Selinium Test
 
 on:
   push :
-     branches: ["main"]
+     branches: ["master"]
 
 jobs:
    test:
@@ -14,5 +14,6 @@ jobs:
         with: 
               java version: "16"
               cache: maven 
+              distribution: temurin
        -uses: browser-actions/setup -chrome@latest
        -run : mvn clean test
